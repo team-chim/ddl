@@ -1,11 +1,16 @@
 # ddl
-Contain DDL (Data Description Language) files
+Contain DDL (Data Description Language) files which can be used to create the database structure. Additionally, this repo also contains other related SQL files.
 
+## Directory Structure
+- `sql_construct` contains the SQL files that will be run to create the database structure. Most of the queries will be `CREATE` commands.
+
+- `sql_populate` contains the SQL files that will be run to insert data into the database. Most of the queries will be `INSERT` commands.
+
+- `sql_sample_query` contains examples of SQL query that can be used. This will demonstrate basic functonality that can be achieved with the database. Most of the queries will be `SELECT` commands.
 
 
 # Docker
-The `Dockerfile` contains build instructions for the database structure. The structure will be created in the docker container.
-Docker image is based from the __Docker__ official mysql docker image and *NOT* __MySQL__'s MySQL docker image. 
+You can alternatively run the database on a docker container. All of the data will be contained in the docker container. The `Dockerfile` contains build instructions for the database structure. The structure will be created in the docker container. The docker image is based from the __Docker__ official mysql docker image and *NOT* __MySQL__'s MySQL docker image. 
 
 ## Build Command
 ```
