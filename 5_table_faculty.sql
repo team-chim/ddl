@@ -1,0 +1,12 @@
+USE rexchula;
+
+DROP TABLE IF EXISTS faculty;
+
+CREATE TABLE faculty
+(
+	FacultyID INT UNSIGNED PRIMARY KEY AUTO_INCREMENT,
+    `Name` VARCHAR(128) UNIQUE NOT NULL,
+    TelNo VARCHAR(128),
+    BelongsTo INT UNSIGNED NOT NULL,
+    FOREIGN KEY (BelongsTo) REFERENCES faculty_group(FacultyGroupID) ON DELETE RESTRICT
+);
