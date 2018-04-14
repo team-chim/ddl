@@ -1,7 +1,9 @@
 #!/bin/bash
 
-# Client Credentials Config file (WILL BE OVERWRITED IF EXISTS)
+# SQL Construct Folder (All *.sql files in this folder will be run)
+SQL_CONSTRUCT=sql_construct
 
+# Client Credentials Config file (WILL BE OVERWRITED IF EXISTS)
 CLIENT_CNF=client.cnf
 
 # Update client.cnf file 
@@ -23,7 +25,7 @@ echo "Created mysql client config file as '$CLIENT_CNF'"
 # Loop through all *.sql files in lexical order
 
 COUNTER=0
-for f in *.sql
+for f in $SQL_CONSTRUCT/*.sql
 do 
 	echo "Processing $f"
 	cat $f | mysql --defaults-file=$CLIENT_CNF
