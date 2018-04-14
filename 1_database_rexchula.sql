@@ -1,3 +1,0 @@
-DROP DATABASE IF EXISTS rexchula;
-
-CREATE DATABASE rexchula CHARACTER SET utf8 COLLATE utf8_unicode_ci;
