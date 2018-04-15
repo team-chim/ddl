@@ -1,0 +1,107 @@
+## INSERT ACADEMIC YEAR ##
+INSERT INTO academic_year
+VALUES (2015);
+
+INSERT INTO academic_year
+VALUES (2018);
+
+INSERT INTO academic_year
+VALUES (2018);
+
+## INSERT COMPANY ##
+
+INSERT INTO company
+VALUES (1234,'SET','ตลาดหลักทรัพย์แห่งประเทศไทย');
+
+INSERT INTO company
+VALUES (4567,'Wongnai','วงใน');
+
+INSERT INTO company
+VALUES (7890,'Google','กูเกิ้ล');
+
+## INSERT COMPANY_BRANCH ##
+
+INSERT INTO company_branch
+VALUES (1234,'-','นายคนดี ศรีสังคม','02 009 9999','93 ถนนรัชดาภิเษก','ดินแดง','กรุงเทพมหานคร','10400','ไทย');
+
+INSERT INTO company_branch
+VALUES (4567,'1','นายวงใน วงกลม','02 713 5922','117/7 Panjit Tower 14th flr. B Soi Thonglor Sukhumvit Rd. Klongton Nuea','Wattana','BANGKOK','10110','THAILAND');
+
+INSERT INTO company_branch
+VALUES (7890,'1','John Doe','+1 650-253-0000','1600 Amphitheatre Pkwy','Mountain View','CA','94043 ','USA');
+
+INSERT INTO company_branch
+VALUES (7890,'2','Jane Doe','+1 650-253-0000','1350 Charleston Rd','Mountain View','CA','94043 ','USA');
+
+INSERT INTO company_branch
+VALUES (7890,'3','Richard Red','02 104 0608',' Park Ventures Ecoplex 57 Wireless Road แขวง ลุมพินี','ปทุมวัน ','กรุงเทพมหานคร ','10330 ','ไทย');
+
+## INSERT COMPANY_INDUSTRIES ##
+
+INSERT INTO company_industries
+VALUES (1234,'Financial');
+
+INSERT INTO company_industries
+VALUES (1234,'Stock');
+
+INSERT INTO company_industries
+VALUES (4567,'Technology');
+
+INSERT INTO company_industries
+VALUES (4567,'Application');
+
+INSERT INTO company_industries
+VALUES (7890,'Technology');
+
+INSERT INTO company_industries
+VALUES (7890,'Search-Engine');
+
+## INSERT DEPARTMENT ##
+
+## INSERT ENG_OFFICIAL_INTERNSHIP ##
+
+## INSERT ENROLLABLE_DEGREES ##
+
+## INSERT FACULTY ##
+
+## INSERT FACULTY_GROUP ##
+
+## INSERT GRAD_STUDENT ##
+
+## INSERT HAS_FEE ##
+
+## INSERT INTERNSHIP ##
+
+## INSERT INTERNSHIP_TO_DEPRATMENT ##
+
+## INSERT MAIN_BRANCH ##
+
+## INSERT MANAGEMENTSHIP ##
+
+## INSERT NATIONALITY ##
+
+## INSERT PAYMENT ##
+
+## INSERT REPORT ##
+
+## INSERT REPORT_DEADLINES ##
+
+## INSERT SECTION ##
+
+## INSERT SECTION_DATETIME ##
+
+## INSERT SEMESTER ##
+
+## INSERT STUDENT ##
+
+## INSERT STUDIES ##
+
+## INSERT SUBJECT ##
+
+## INSERT SUBJECT_REQUIRES ##
+
+## INSERT TEACHER ##
+
+## INSERT UNDERGRAD_STUDENT ##
+
+
