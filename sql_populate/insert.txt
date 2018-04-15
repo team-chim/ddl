@@ -8,6 +8,10 @@ VALUES (2018);
 INSERT INTO academic_year
 VALUES (2018);
 
+INSERT INTO academic_year
+VALUES (2015);
+
+
 ## INSERT COMPANY ##
 
 INSERT INTO company
@@ -18,6 +22,113 @@ VALUES (4567,'Wongnai','วงใน');
 
 INSERT INTO company
 VALUES (7890,'Google','กูเกิ้ล');
+
+## INSERT FACULTY_GROUP ##
+
+INSERT INTO faculty_group 
+VALUES (1); #1 = sci
+
+INSERT INTO faculty_group
+VALUES (2); #2 = non-sci
+
+
+## INSERT FACULTY ##
+
+INSERT INTO faculty
+VALUES (21,'Engineer','+66-2-218-6337','1');
+
+INSERT INTO faculty
+VALUES (23,'Science','0 2218 5000','1');
+
+INSERT INTO faculty
+VALUES (22,'Arts','02 218 4870','2');
+
+INSERT INTO faculty
+VALUES (26,'Commerce and Accountancy',' (+662) 218-5758','2');
+
+## INSERT NATIONALITY ##
+
+INSERT INTO nationality(NationName)
+VALUES ('Thai');
+
+INSERT INTO nationality(NationName)
+VALUES ('Indian');
+
+INSERT INTO nationality(NationName)
+VALUES ('English');
+
+INSERT INTO nationality(NationName)
+VALUES ('Canadian');
+
+## INSERT SUBJECT ##
+
+INSERT INTO subject
+VALUES ('2110422','DB MGT SYS DESIGN','การออกแบบระบบการจัดการฐานข้อมูล','3','2018-03-09 08:30:00','2018-05-11 08:30:00');
+
+INSERT INTO subject
+VALUES ('2110332','SYS ANAL DESIGN','การวิเคราะห์และการออกแบบระบบ','3','2018-03-07 08:30:00','2018-05-15 08:30:00');
+
+INSERT INTO subject
+VALUES ('2204180','CIVILIZATION','อารยธรรม','3',NULL,'2018-05-08 13:00:00');
+
+INSERT INTO subject
+VALUES ('2601111','BUSINESS ACCOUNTING','การบัญชีธุรกิจ','3',NULL,NULL);
+
+## INSERT DEPARTMENT ##
+
+INSERT INTO department (FacultyID,NameEN,NameTH)
+VALUES (21,'Chemical Engineering','วิศวกรรมเครื่องเคมี');
+
+INSERT INTO department (FacultyID,NameEN,NameTH)
+VALUES (21,'Mechanical Engineering','วิศวกรรมเครื่องกล');
+
+INSERT INTO department (FacultyID,NameEN,NameTH)
+VALUES (21,'Computer Engineering','วิศวกรรมคอมพิวเตอร์');
+
+INSERT INTO department (FacultyID,NameEN,NameTH)
+VALUES (21,'Electrical Engineering','วิศวกรรมไฟฟ้า');
+
+INSERT INTO department (FacultyID,NameEN,NameTH)
+VALUES (22,'Thai','ภาษาไทย');
+
+INSERT INTO department (FacultyID,NameEN,NameTH)
+VALUES (22,'Philosophy','ปรัชญา');
+
+INSERT INTO department (FacultyID,NameEN,NameTH)
+VALUES (23,'Chemistry','เคมี');
+
+INSERT INTO department (FacultyID,NameEN,NameTH)
+VALUES (23,'Physics','ฟิสิกส์');
+
+INSERT INTO department (FacultyID,NameEN,NameTH)
+VALUES (26,'Accountancy','การบัญชี');
+
+INSERT INTO department (FacultyID,NameEN,NameTH)
+VALUES (26,'Commerce','พาณิชยศาสตร์');
+
+## INSERT TEACHER ##
+
+INSERT INTO teacher
+VALUES ('0123456789','PRABHAS ',NULL,'CHONGSTITVATANA','ประภาส',NULL,'จงสถิตย์วัฒนา','Prabhas.C@chula.ac.th','0000000000',21,1,'2001-05-01');
+
+INSERT INTO teacher
+VALUES ('2345678901','ATIWONG',NULL,'SUCHATO','อติวงศ์ ',NULL,'สุชาโต','atiwong@cp.eng.chula.ac.th','1111111111',21,1,'2013-05-01');
+
+INSERT INTO teacher
+VALUES ('2345678901','Suchitra',NULL,'Chongstitvatana','สุจิตรา',NULL,'จงสถิตย์วัฒนา',NULL,'2222222222',22,1,'2001-05-01');
+
+INSERT INTO teacher
+VALUES ('3456789012','Kanit','Mitinunwong','Sirichan','กนิษฐ์ ','มิตินันท์วงศ์','ศิริจันทร์','Kanit.M@Chula.ac.th','3333333333',22,2,'2001-05-01');
+
+## INSERT STUDENT ##
+
+INSERT INTO student(StudentID,FnameEN,MnameEN,LnameEN,FnameTH,MnameTH,LnameTH,StudentEmail,EnterYear,Adviser,Nation,MajorFaculty,MajorDepartment)
+VALUES ('5830123421','Panich','K','Wangwiwat','พณิช ','เค','วังวิวัฒน์','panich.w@gmail.com',2015,'0123456789','Thai',21,1);
+
+
+
+------------------------------------------------------------------------------------------------------------------------------
+
 
 ## INSERT COMPANY_BRANCH ##
 
@@ -56,15 +167,13 @@ VALUES (7890,'Technology');
 INSERT INTO company_industries
 VALUES (7890,'Search-Engine');
 
-## INSERT DEPARTMENT ##
+
 
 ## INSERT ENG_OFFICIAL_INTERNSHIP ##
 
 ## INSERT ENROLLABLE_DEGREES ##
 
-## INSERT FACULTY ##
 
-## INSERT FACULTY_GROUP ##
 
 ## INSERT GRAD_STUDENT ##
 
@@ -78,7 +187,6 @@ VALUES (7890,'Search-Engine');
 
 ## INSERT MANAGEMENTSHIP ##
 
-## INSERT NATIONALITY ##
 
 ## INSERT PAYMENT ##
 
@@ -92,15 +200,13 @@ VALUES (7890,'Search-Engine');
 
 ## INSERT SEMESTER ##
 
-## INSERT STUDENT ##
 
 ## INSERT STUDIES ##
 
-## INSERT SUBJECT ##
 
 ## INSERT SUBJECT_REQUIRES ##
 
-## INSERT TEACHER ##
+
 
 ## INSERT UNDERGRAD_STUDENT ##
 
