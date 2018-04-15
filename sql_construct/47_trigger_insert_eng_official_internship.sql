@@ -9,11 +9,15 @@ CREATE TRIGGER before_insert_eng_official_internship
 BEFORE INSERT ON eng_official_internship
 FOR EACH ROW
 BEGIN
+	DECLARE StartDate DATE;
+    SET StartDate = (SELECT i.StartDate
+					 FROM internship i
+                     WHERE i.StudentID = NEW.StudentID AND i.`Year` = NEW.`Year` AND i.CompanyID = NEW.CompanyID AND i.BranchName = NEW.BranchName);
 	IF NEW.HasOverdueReport IS NOT NULL THEN
 		SIGNAL SQLSTATE '45000'
 			SET MESSAGE_TEXT = 'Cannot assigned value to generated column HasOverdueReport';
     END IF;
-    SET NEW.HasOverdueReport = 0;
+    SET NEW.HasOverdueReport = CURRENT_DATE() > DATE_ADD(StartDate, INTERVAL 14 DAY);
 END$$
 
 CREATE TRIGGER after_insert_eng_official_internship

@@ -11,5 +11,5 @@ CREATE TABLE report_deadlines
     `Number` INT UNSIGNED,
     Deadline DATE NOT NULL,
     CONSTRAINT pk_report_deadlines PRIMARY KEY(StudentID, `Year`, CompanyID, BranchName, `Number`),
-    CONSTRAINT fk_report_deadlines FOREIGN KEY(StudentID, `Year`, CompanyID, BranchName) REFERENCES eng_official_internship(StudentID, `Year`, CompanyID, BranchName) ON DELETE CASCADE
+    CONSTRAINT fk_report_deadlines FOREIGN KEY(StudentID, `Year`, CompanyID, BranchName) REFERENCES eng_official_internship(StudentID, `Year`, CompanyID, BranchName) ON DELETE CASCADE ON UPDATE CASCADE
 );
