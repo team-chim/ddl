@@ -1,0 +1,16 @@
+USE rexchula;
+
+DROP TRIGGER IF EXISTS insert_internship;
+
+DELIMITER $$
+
+CREATE TRIGGER insert_internship
+AFTER INSERT ON internship
+FOR EACH ROW
+BEGIN
+	IF DATE_ADD(NEW.StartDate, INTERVAL 56 DAY) > NEW.EndDate THEN
+		SIGNAL SQLSTATE '45000'
+			SET MESSAGE_TEXT = 'Date is invalid';
+	END IF;
+END$$
+DELIMITER ;

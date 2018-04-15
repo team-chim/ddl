@@ -18,7 +18,7 @@ CREATE TABLE student
     Adviser CHAR(10) NOT NULL,
     CONSTRAINT Adviser_student FOREIGN KEY(Adviser) REFERENCES teacher(TeacherID) ON DELETE RESTRICT,
     Nation VARCHAR(128) NOT NULL,
-    CONSTRAINT Nation_student FOREIGN KEY(Nation) REFERENCES nationality(Foreigness) ON DELETE RESTRICT,
+    CONSTRAINT Nation_student FOREIGN KEY(Nation) REFERENCES nationality(NationName) ON DELETE RESTRICT,
     MajorFaculty INT UNSIGNED NOT NULL,
     MajorDepartment INT UNSIGNED NOT NULL,
     CONSTRAINT Major_student FOREIGN KEY(MajorFaculty, MajorDepartment) REFERENCES department(FacultyID, DepartmentID) ON DELETE RESTRICT
