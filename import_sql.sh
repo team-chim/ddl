@@ -28,7 +28,10 @@ COUNTER=0
 for f in $SQL_CONSTRUCT/*.sql
 do 
 	echo "Processing $f"
-	cat $f | mysql --defaults-file=$CLIENT_CNF
+	cat $f | mysql --defaults-file=$CLIENT_CNF --default-character-set=utf8
 	COUNTER=$((COUNTER + 1))
 done
 echo "Finished (processed $COUNTER files)"
+
+source create_users.sh
+source populate.sh

@@ -9,7 +9,7 @@ CREATE TABLE has_fee
     EntryYear INT UNSIGNED,
     GradFee INT UNSIGNED NOT NULL,
     UndergradFee INT UNSIGNED NOT NULL,
-    CONSTRAINT pk_has_fee PRIMARY KEY(FacultyGroupID, IsThai, `Year`),
+    CONSTRAINT pk_has_fee PRIMARY KEY(FacultyGroupID, IsThai, `EntryYear`),
     CONSTRAINT fk1_has_fee FOREIGN KEY(FacultyGroupID) REFERENCES faculty_group(FacultyGroupID) ON DELETE CASCADE,
-    CONSTRAINT fk2_has_fee FOREIGN KEY(`Year`) REFERENCES academic_year(`Year`) ON DELETE CASCADE
+    CONSTRAINT fk2_has_fee FOREIGN KEY(`EntryYear`) REFERENCES academic_year(`Year`) ON DELETE CASCADE
 );

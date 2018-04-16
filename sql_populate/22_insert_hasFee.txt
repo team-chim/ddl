@@ -1,8 +1,0 @@
-## INSERT HAS_FEE ##
-
-INSERT INTO has_fee
-VALUES (1,'Thai',2015,25000,21000);
-
-
-INSERT INTO has_fee
-VALUES (2,'Thai',2015,18000,22000);

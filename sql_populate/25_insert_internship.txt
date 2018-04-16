@@ -1,4 +1,0 @@
-## INSERT INTERNSHIP ##
-
-INSERT INTO internship
-VALUES (5830123421,2017,4567,1,'Pending','2018-06-01','2018-07-30','FrontEnd Developer',NULL,'enjoyed to working here, good food too',9,NULL);

@@ -1,4 +1,0 @@
-## INSERT INTERNSHIP_TO_DEPRATMENT ##
-
-INSERT INTO internship_to_department
-VALUES (4567,2017,1,21,1);

@@ -1,4 +1,0 @@
-## INSERT ENG_OFFICIAL_INTERNSHIP ##
-
-INSERT INTO eng_official_internship(StudentID,YEAR,CompanyID,BranchName)
-VALUES ('5830123421',2017,4567,1);

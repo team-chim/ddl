@@ -1,4 +1,0 @@
-## INSERT SUBJECT_REQUIRES ##
-
-INSERT INTO subject_requires
-VALUES ('2110332','2110316');
