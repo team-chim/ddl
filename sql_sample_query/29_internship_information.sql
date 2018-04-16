@@ -1,0 +1,2 @@
+SELECT *
+FROM internship i
