@@ -1,0 +1,4 @@
+## INSERT PAYMENT ##
+
+INSERT INTO payment (StudentID,Year,Semester,PaymentStatus,PaymentDate)
+VALUES (5830123421,2017,1,'Success','2017-06-23');

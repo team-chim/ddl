@@ -1,0 +1,7 @@
+## INSERT INTERNSHIP_OFFER ##
+
+INSERT INTO internship_offer (CompanyID,Year,PositionNameEN,PositionNameTH,PositionDescriptionEN,PositionDescriptionTH,NumberOfPosition,OtherRequirements,StatedMinimumGrade,StatedSalary,OtherBenefits,ExpiryDate)
+VALUES (4567,2017,'BackEnd Developer',NULL,'Implement backend of our application',NULL,5,'Javascript, Docker, NodeJS',2.75,500,NULL,'2018-03-31');
+
+INSERT INTO internship_offer (CompanyID,Year,PositionNameEN,PositionNameTH,PositionDescriptionEN,PositionDescriptionTH,NumberOfPosition,OtherRequirements,StatedMinimumGrade,StatedSalary,OtherBenefits,ExpiryDate)
+VALUES (4567,2017,'FrontEnd Developer',NULL,'Implement company website',NULL,5,'Javascript, React,',2.75,500,NULL,'2018-03-31');

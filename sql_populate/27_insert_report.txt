@@ -1,0 +1,5 @@
+## INSERT REPORT ##
+
+INSERT INTO report(StudentID,Year,CompanyID,BranchName,Date)
+VALUES ('58301234',2017,4567,'1','2018-06-17');
+#ยังไม่ได้ลอง insert

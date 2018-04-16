@@ -1,0 +1,7 @@
+## INSERT SECTION ##
+
+INSERT INTO section (SubjectID,Year,Semester,SectionNo,Classroom,GenedType,MaxStudent,TeachedBy)
+VALUES ('2110332',2017,2,33,'3-321',0,30,4567890123);
+
+INSERT INTO section (SubjectID,Year,Semester,SectionNo,Classroom,GenedType,MaxStudent,TeachedBy)
+VALUES ('2110316',2017,1,33,'3-315',0,30,4567890123);
