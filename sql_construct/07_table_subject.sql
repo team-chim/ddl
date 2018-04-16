@@ -8,6 +8,8 @@ CREATE TABLE `subject`
     NameEN VARCHAR(128) UNIQUE NOT NULL,
     NameTH VARCHAR(128) UNIQUE,
     Credit INT UNSIGNED NOT NULL,
-    MidtermDate DATETIME,
-    FinalDate DATETIME
+    MidtermStartDatetime DATETIME,
+    MidtermEndDatetime DATETIME,
+    FinalStartDatetime DATETIME,
+    FinalEndDatetime DATETIME
 );
