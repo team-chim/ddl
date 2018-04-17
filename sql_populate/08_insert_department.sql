@@ -1,7 +1,7 @@
 USE rexchula;
 
 INSERT INTO department (`FacultyID`, `DepartmentID`, `NameEN`, `NameTH`)
-VALUES (21,  1, 'Chemical Engineering','วิศวกรรมเครื่องเคมี'),
+VALUES (21,  1, 'Civil Engineering','วิศวกรรมโยธา'),
        (21,  2, 'Electrical Engineering','วิศวกรรมไฟฟ้า'),
        (21,  3, 'Mechanical Engineering','วิศวกรรมเครื่องกล'),
        (21,  4, 'Industrial Engineering','วิศวกรรมอุตสาหการ'),
