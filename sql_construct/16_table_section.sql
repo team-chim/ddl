@@ -14,7 +14,6 @@ CREATE TABLE section
     CurrentStudent INT UNSIGNED,
     TeachedBy CHAR(10),
     CONSTRAINT pk_section PRIMARY KEY(SubjectID, `Year`, Semester, SectionNo),
-    CONSTRAINT fk1_section FOREIGN KEY(SubjectID) REFERENCES subject(SubjectID) ON DELETE CASCADE,
-    CONSTRAINT fk2_section FOREIGN KEY(`Year`, Semester) REFERENCES semester(`Year`, Semester) ON DELETE RESTRICT,
-    CONSTRAINT TeachedBy_section FOREIGN KEY(TeachedBy) REFERENCES teacher(TeacherID) ON DELETE SET NULL
+    CONSTRAINT fk_section FOREIGN KEY(SubjectID, `Year`, Semester) REFERENCES class(SubjectID, `Year`, Semester) ON DELETE CASCADE ON UPDATE CASCADE,
+    CONSTRAINT TeachedBy_section FOREIGN KEY(TeachedBy) REFERENCES teacher(TeacherID) ON DELETE SET NULL ON UPDATE CASCADE
 );

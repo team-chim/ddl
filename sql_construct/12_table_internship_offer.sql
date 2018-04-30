@@ -18,6 +18,6 @@ CREATE TABLE internship_offer
     OtherBenefits TEXT,
     ExpiryDate DATE,
     CONSTRAINT pk_internship_offer PRIMARY KEY(CompanyID, `Year`, OfferID),
-    CONSTRAINT fk1_internship_offer FOREIGN KEY(CompanyID) REFERENCES company(CompanyID) ON DELETE RESTRICT,
-    CONSTRAINT fk2_internship_offer FOREIGN KEY(`Year`) REFERENCES academic_year(`Year`) ON DELETE RESTRICT
+    CONSTRAINT fk1_internship_offer FOREIGN KEY(CompanyID) REFERENCES company(CompanyID) ON DELETE RESTRICT ON UPDATE CASCADE,
+    CONSTRAINT fk2_internship_offer FOREIGN KEY(`Year`) REFERENCES academic_year(`Year`) ON DELETE RESTRICT ON UPDATE RESTRICT
 );

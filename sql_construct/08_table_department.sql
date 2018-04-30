@@ -9,5 +9,5 @@ CREATE TABLE department
     NameEN VARCHAR(128) NOT NULL,
     NameTH VARCHAR(128),
     CONSTRAINT pk_department PRIMARY KEY(FacultyID, DepartmentID),
-    CONSTRAINT fk_department FOREIGN KEY(FacultyID) REFERENCES faculty(FacultyID) ON DELETE CASCADE
+    CONSTRAINT fk_department FOREIGN KEY(FacultyID) REFERENCES faculty(FacultyID) ON DELETE CASCADE ON UPDATE CASCADE
 );

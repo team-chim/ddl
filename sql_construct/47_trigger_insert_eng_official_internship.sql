@@ -29,9 +29,9 @@ BEGIN
 					 FROM internship i
                      WHERE i.StudentID = NEW.StudentID AND i.`Year` = NEW.`Year` AND i.CompanyID = NEW.CompanyID AND i.BranchName = NEW.BranchName);
 	INSERT INTO report_deadlines(StudentID, `Year`, CompanyID, BranchName, `Number`, Deadline)
-    VALUES (NEW.StudentID, NEW.`Year`, NEW.CompanyID, NEW.BranchName, 1, DATE_ADD(StartDate, INTERVAL 14 DAY)),
-		   (NEW.StudentID, NEW.`Year`, NEW.CompanyID, NEW.BranchName, 2, DATE_ADD(StartDate, INTERVAL 28 DAY)),
-           (NEW.StudentID, NEW.`Year`, NEW.CompanyID, NEW.BranchName, 3, DATE_ADD(StartDate, INTERVAL 42 DAY)),
-           (NEW.StudentID, NEW.`Year`, NEW.CompanyID, NEW.BranchName, 4, DATE_ADD(StartDate, INTERVAL 56 DAY));
+    VALUES (NEW.StudentID, NEW.`Year`, NEW.CompanyID, NEW.BranchName, 1, NULL),
+		   (NEW.StudentID, NEW.`Year`, NEW.CompanyID, NEW.BranchName, 2, NULL),
+           (NEW.StudentID, NEW.`Year`, NEW.CompanyID, NEW.BranchName, 3, NULL),
+           (NEW.StudentID, NEW.`Year`, NEW.CompanyID, NEW.BranchName, 4, NULL);
 END$$
 DELIMITER ;

@@ -18,9 +18,10 @@ BEGIN
 		SIGNAL SQLSTATE '45000'
 			SET MESSAGE_TEXT = 'Report number must be between 1-4';
 	END IF;
-    IF NEW.Deadline <> DATE_ADD(StartDate, INTERVAL Length DAY) THEN
+    IF NEW.Deadline IS NOT NULL THEN
 		SIGNAL SQLSTATE '45000'
-			SET MESSAGE_TEXT = 'Invalid Deadline';
+			SET MESSAGE_TEXT = 'Cannot assigned value to generated column Deadline';
 	END IF;
+    SET NEW.Deadline = DATE_ADD(StartDate, INTERVAL Length DAY);
 END$$
 DELIMITER ;

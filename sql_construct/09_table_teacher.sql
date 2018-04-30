@@ -16,5 +16,5 @@ CREATE TABLE teacher
     WorksForFaculty INT UNSIGNED NOT NULL,
     WorksForDepartment INT UNSIGNED NOT NULL,
     Since DATE NOT NULL,
-    CONSTRAINT WorksFor_teacher FOREIGN KEY(WorksForFaculty, WorksForDepartment) REFERENCES department(FacultyID, DepartmentID) ON DELETE RESTRICT
+    CONSTRAINT WorksFor_teacher FOREIGN KEY(WorksForFaculty, WorksForDepartment) REFERENCES department(FacultyID, DepartmentID) ON DELETE RESTRICT ON UPDATE CASCADE
 );

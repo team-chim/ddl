@@ -10,5 +10,5 @@ CREATE TABLE eng_official_internship
     BranchName VARCHAR(128),
     HasOverdueReport BOOL,
     CONSTRAINT pk_eng_official_internship PRIMARY KEY(StudentID, `Year`, CompanyID, BranchName),
-    CONSTRAINT fk_eng_official_internship FOREIGN KEY(StudentID, `Year`, CompanyID, BranchName) REFERENCES internship(StudentID, `Year`, CompanyID, BranchName) ON DELETE CASCADE
+    CONSTRAINT fk_eng_official_internship FOREIGN KEY(StudentID, `Year`, CompanyID, BranchName) REFERENCES internship(StudentID, `Year`, CompanyID, BranchName) ON DELETE CASCADE ON UPDATE CASCADE
 );

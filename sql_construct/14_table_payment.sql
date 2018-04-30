@@ -11,6 +11,6 @@ CREATE TABLE payment
     PaymentStatus ENUM('Pending', 'Success', 'Invalid') NOT NULL,
     PaymentDate Date,
     CONSTRAINT pk_payment PRIMARY KEY(StudentID, `Year`, Semester),
-    CONSTRAINT fk1_payment FOREIGN KEY(StudentID) REFERENCES student(StudentID) ON DELETE CASCADE,
-    CONSTRAINT fk2_payment FOREIGN KEY(`Year`, Semester) REFERENCES semester(`Year`, Semester) ON DELETE RESTRICT
+    CONSTRAINT fk1_payment FOREIGN KEY(StudentID) REFERENCES student(StudentID) ON DELETE CASCADE ON UPDATE CASCADE,
+    CONSTRAINT fk2_payment FOREIGN KEY(`Year`, Semester) REFERENCES semester(`Year`, Semester) ON DELETE RESTRICT ON UPDATE RESTRICT
 );

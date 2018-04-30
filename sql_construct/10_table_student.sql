@@ -13,13 +13,13 @@ CREATE TABLE student
     LnameTH VARCHAR(128),
     StudentEmail VARCHAR(128),
     GPAX DOUBLE(3, 2),
-    EnterYear INT UNSIGNED NOT NULL,
-    CONSTRAINT EnterYear_student FOREIGN KEY(EnterYear) REFERENCES academic_year(`Year`) ON DELETE RESTRICT,
+    EnterYear INT UNSIGNED,
+    CONSTRAINT EnterYear_student FOREIGN KEY(EnterYear) REFERENCES academic_year(`Year`) ON DELETE RESTRICT ON UPDATE RESTRICT,
     Adviser CHAR(10) NOT NULL,
-    CONSTRAINT Adviser_student FOREIGN KEY(Adviser) REFERENCES teacher(TeacherID) ON DELETE RESTRICT,
+    CONSTRAINT Adviser_student FOREIGN KEY(Adviser) REFERENCES teacher(TeacherID) ON DELETE RESTRICT ON UPDATE CASCADE,
     Nation VARCHAR(128) NOT NULL,
-    CONSTRAINT Nation_student FOREIGN KEY(Nation) REFERENCES nationality(NationName) ON DELETE RESTRICT,
+    CONSTRAINT Nation_student FOREIGN KEY(Nation) REFERENCES nationality(NationName) ON DELETE RESTRICT ON UPDATE CASCADE,
     MajorFaculty INT UNSIGNED NOT NULL,
     MajorDepartment INT UNSIGNED NOT NULL,
-    CONSTRAINT Major_student FOREIGN KEY(MajorFaculty, MajorDepartment) REFERENCES department(FacultyID, DepartmentID) ON DELETE RESTRICT
+    CONSTRAINT Major_student FOREIGN KEY(MajorFaculty, MajorDepartment) REFERENCES department(FacultyID, DepartmentID) ON DELETE RESTRICT ON UPDATE CASCADE
 );

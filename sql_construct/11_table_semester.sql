@@ -17,5 +17,5 @@ CREATE TABLE semester
     WithdrawStartDate DATE NOT NULL,
     WithdrawEndDate DATE NOT NULL,
     CONSTRAINT pk_semester PRIMARY KEY(`Year`, Semester),
-    CONSTRAINT fk_semester FOREIGN KEY(`Year`) REFERENCES academic_year(`Year`) ON DELETE RESTRICT
+    CONSTRAINT fk_semester FOREIGN KEY(`Year`) REFERENCES academic_year(`Year`) ON DELETE RESTRICT ON UPDATE RESTRICT
 );

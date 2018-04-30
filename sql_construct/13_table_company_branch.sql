@@ -14,5 +14,5 @@ CREATE TABLE company_branch
     PostalCode VARCHAR(128),
     Country VARCHAR(128),
     CONSTRAINT pk_company_branch PRIMARY KEY(CompanyID, BranchName),
-    CONSTRAINT fk_company_branch FOREIGN KEY(CompanyID) REFERENCES company(CompanyID) ON DELETE CASCADE
+    CONSTRAINT fk_company_branch FOREIGN KEY(CompanyID) REFERENCES company(CompanyID) ON DELETE CASCADE ON UPDATE CASCADE
 );

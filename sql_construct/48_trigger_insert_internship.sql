@@ -5,7 +5,7 @@ DROP TRIGGER IF EXISTS insert_internship;
 DELIMITER $$
 
 CREATE TRIGGER insert_internship
-AFTER INSERT ON internship
+BEFORE INSERT ON internship
 FOR EACH ROW
 BEGIN
 	IF DATE_ADD(NEW.StartDate, INTERVAL 56 DAY) > NEW.EndDate THEN

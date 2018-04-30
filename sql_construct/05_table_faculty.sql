@@ -9,5 +9,5 @@ CREATE TABLE faculty
     NameTH VARCHAR(128),
     TelNo VARCHAR(128),
     BelongsTo INT UNSIGNED NOT NULL,
-    FOREIGN KEY (BelongsTo) REFERENCES faculty_group(FacultyGroupID) ON DELETE RESTRICT
+    FOREIGN KEY (BelongsTo) REFERENCES faculty_group(FacultyGroupID) ON DELETE RESTRICT ON UPDATE CASCADE
 );
