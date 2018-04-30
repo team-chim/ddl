@@ -16,7 +16,7 @@ BEGIN
 			SET MESSAGE_TEXT = 'Cannot assigned value to generated column EnterYear';
 	END IF;
     
-    SET NEW.EnterYear = (CAST(SUBSTRING('5830287921', 1, 2) AS UNSIGNED INTEGER) + 1957);
+    SET NEW.EnterYear = (CAST(SUBSTRING(NEW.StudentID, 1, 2) AS UNSIGNED INTEGER) + 1957);
     
 END$$
 DELIMITER ;
