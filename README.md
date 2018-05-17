@@ -38,3 +38,11 @@ These commands will create a user named `username` with password `password`. You
 $ docker run --name some-app --link some-mysql:mysql -d application-that-uses-mysql
 ```
 This command is used to connect this MySQL server to another application docker. 
+
+## Using Docker Compose
+
+Docker compose provides a simple way to start the docker container without the need to copy the docker command every time.
+
+```
+$ docker-compose up
+```
