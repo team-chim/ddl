@@ -8,6 +8,6 @@ VALUES ('5730123421', 'Panich', 'K', 'Wangwiwat', 'พณิช', 'เค', 'ว
 	   ('5702229921','Tanawat',NULL,'Wongdee','ธนวัฒน์',NULL,'วงดี','wongdee.t@gmail.com','0010013658','Thai',21,10),
 	   ('5701132221','Kanlaya',NULL,'Kaewdkloaw','กัลลยา',NULL,'แก้วกล้าว','kanlawy.k@gmail.com','0000040461','Thai',21,10),
 	   ('5830244121','Maitree',NULL,'Chanpetch','ไมตรี',NULL,'จันเพชร','mtree.c@gmail.com','0000040461','Thai',21,10),
-	   ('5630297121','Benja',NULL,'Buree','เบญจ',NULL,'บุรี','benjy.bubu@gmail.com','0000034157','Thai',21,10),
+	   ('5670297121','Benja',NULL,'Buree','เบญจ',NULL,'บุรี','benjy.bubu@gmail.com','0000034157','Thai',21,10),
 	   ('5732987621','Napat',NULL,'Siangsomboon','ณภัทร',NULL,'เสียงสมบุญ','napat.s@gmail.com','0000034157','Thai',21,10);
 	   
