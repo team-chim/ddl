@@ -17,7 +17,7 @@ CREATE TABLE internship
     Rating INT UNSIGNED,
     OfferID INT UNSIGNED,
     CONSTRAINT pk_internship PRIMARY KEY(StudentID, `Year`, CompanyID, BranchName),
-    CONSTRAINT fk1_internship FOREIGN KEY(StudentID) REFERENCES undergrad_student(StudentID) ON DELETE RESTRICT ON UPDATE CASCADE,
+    CONSTRAINT fk1_internship FOREIGN KEY(StudentID) REFERENCES undergrad_student(StudentID) ON DELETE CASCADE ON UPDATE CASCADE,
     CONSTRAINT fk2_internship FOREIGN KEY(`Year`) REFERENCES academic_year(`Year`) ON DELETE RESTRICT ON UPDATE RESTRICT,
     CONSTRAINT fk3_internship FOREIGN KEY(CompanyID, BranchName) REFERENCES company_branch(CompanyID, BranchName) ON DELETE RESTRICT ON UPDATE CASCADE,
     CONSTRAINT TakesOffer_internship FOREIGN KEY(CompanyID, `Year`, OfferID) REFERENCES internship_offer(CompanyID, `Year`, OfferID) ON DELETE RESTRICT ON UPDATE RESTRICT
