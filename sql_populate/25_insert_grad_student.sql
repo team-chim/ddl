@@ -1,3 +1,4 @@
 ## INSERT GRAD_STUDENT ##
-
-#ไม่รู้จะแอดอะไร
+INSERT INTO grad_student (`StudentID`)
+VALUES ('5670297121');
+       
