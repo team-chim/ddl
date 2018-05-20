@@ -15,6 +15,7 @@ VALUES ('0123456789', 'Prabhas', NULL,'Chongstitvatana', 'ประภาส', N
        ('7890123456', 'Natthaporn', NULL, 'Panpothong', 'ณัฐพร', NULL, 'พานโพธิ์ทอง', 'ntp1142@hotmail.com', '022184687', 22, 1, '2000-05-01'),
        ('8901234567', 'Daoruang', NULL, 'Wittayarat', 'ดาวเรือง', NULL, 'วิทยารัฐ', NULL, NULL, 22, 1, '2004-05-01'),
        ('9012345678', 'Moodjalin', NULL, 'Sudcharoen', 'มุจลินท์', NULL, 'สุดเจิรญ', NULL, NULL, 22, 1, '2014-05-01'),
+       ('9922341236', 'Jirawan', NULL, 'Boonsom', 'จิรวัณน์', NULL, 'บุณสม', NULL, NULL, 26, 1, '2015-05-01'),
        
     -- Real Chula Staff ID
        ('0010003176', 'Atiwong', NULL, 'Suchato', 'อติวงศ์ ', NULL,'สุชาโต','atiwong@cp.eng.chula.ac.th','1111111111',21,10,'2013-05-01'),
