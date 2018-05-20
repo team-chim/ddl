@@ -7,6 +7,9 @@ VALUES	('5730123421', 'Panich', 'K', 'Wangwiwat', 'พณิช', 'เค', 'ว
 	('5734433221','Richard','R','Rich','ริชาร์ด','อาร์','ริช','richRichard@gmail.com','0010013658','Canadian',21,10),
 	('5732229921','Tanawat',NULL,'Wongdee','ธนวัฒน์',NULL,'วงดี','wongdee.t@gmail.com','0010013658','Thai',21,10),
 	('5731132221','Kanlaya',NULL,'Kaewdkloaw','กัลลยา',NULL,'แก้วกล้าว','kanlawy.k@gmail.com','0000040461','Thai',21,10),
+	('5742117922','Namthip',NULL,'Chanpetch','น้ำทิพย์',NULL,'จันเพชร','namthip.nn@gmail.com','2345678901','Thai',22,04),
+	('5740037122','Wasuporn',NULL,'Kongkiat','วสุพร',NULL,'ก้องเกียรติ','kongkiat.wa@gmail.com','2345678901','Thai',22,04),
+	('5732671526','Peeraya',NULL,'Jeanjit','พีรยา',NULL,'จีนจิตย์','peeraya.pp@gmail.com','9922341236','Thai',26,01),
 	('5830244121','Maitree',NULL,'Chanpetch','ไมตรี',NULL,'จันเพชร','mtree.c@gmail.com','0000040461','Thai',21,10),
 	('5670297121','Benja',NULL,'Buree','เบญจ',NULL,'บุรี','benjy.bubu@gmail.com','0000034157','Thai',21,10),
 	('5732987621','Napat',NULL,'Siangsomboon','ณภัทร',NULL,'เสียงสมบุญ','napat.s@gmail.com','0000034157','Thai',21,10);
