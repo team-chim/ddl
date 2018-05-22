@@ -3,7 +3,7 @@ USE rexchula;
 INSERT INTO student(`StudentID`, `FnameEN`, `MnameEN`, `LnameEN`, `FnameTH`, `MnameTH`, `LnameTH`, `StudentEmail`, `Adviser`, `Nation`, `MajorFaculty`, `MajorDepartment`)
 VALUES	('5730123421', 'Panich', 'K', 'Wangwiwat', 'พณิช', 'เค', 'วังวิวัฒน์', 'panich.w@gmail.com', '0010003176', 'Thai', 21, 10),
 	('5732831021', 'Jirachai', NULL, 'Kochakrit', 'จิรชัย', NULL, 'คชกฤษ', 'jirachai.k@gmail.com', '0010003176', 'Thai', 21, 10),
-	('5730098721', 'Jirad', NULL, 'Inca', 'จิรัธ', NULL, 'อินคา', 'jirad.i@gmail.com', '9910003176', 'Thai', 21, 10),
+	('5730098721', 'Jirad', NULL, 'Inca', 'จิรัธ', NULL, 'อินคา', 'jirad.i@gmail.com', '0010003176', 'Thai', 21, 10),
 	('5731150221', 'Sirisopha', NULL, 'Thamwattanakan', 'ศิริโสภา', NULL, 'ธรรมวัฒนากาญจน์', 'sirisopha.th@gmail.com', '0010003176', 'Thai', 21, 10),
 	('5734433221','Richard','R','Rich','ริชาร์ด','อาร์','ริช','richRichard@gmail.com','0010013658','Canadian',21,10),
 	('5732229921','Tanawat',NULL,'Wongdee','ธนวัฒน์',NULL,'วงดี','wongdee.t@gmail.com','0010013658','Thai',21,10),
