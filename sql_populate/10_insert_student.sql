@@ -13,5 +13,8 @@ VALUES	('5730123421', 'Panich', 'K', 'Wangwiwat', 'พณิช', 'เค', 'ว
 	('5732671526','Peeraya',NULL,'Jeanjit','พีรยา',NULL,'จีนจิตย์','peeraya.pp@gmail.com','9922341236','Thai',26,01),
 	('5830244121','Maitree',NULL,'Chanpetch','ไมตรี',NULL,'จันเพชร','mtree.c@gmail.com','0000040461','Thai',21,10),
 	('5670297121','Benja',NULL,'Buree','เบญจ',NULL,'บุรี','benjy.bubu@gmail.com','0000034157','Thai',21,10),
-	('5732987621','Napat',NULL,'Siangsomboon','ณภัทร',NULL,'เสียงสมบุญ','napat.s@gmail.com','0000034157','Thai',21,10);
+	('5732987621','Napat',NULL,'Siangsomboon','ณภัทร',NULL,'เสียงสมบุญ','napat.s@gmail.com','0000034157','Thai',21,10),
+	/*MOCK*/
+	('5730000021', 'Test', 't', 'Testest', 'เทส', 'ที', 'เทสเทส', 'test.t@gmail.com', '0010003176', 'Thai', 21, 10);
+	
 	   
