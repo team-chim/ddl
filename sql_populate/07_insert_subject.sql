@@ -12,6 +12,8 @@ VALUES ('2100111', 'EXPL ENG WORLD', 'EXPLORING ENGINEERING WORLD', 'ท่อ�
        ('2102203', 'PROB STAT ELEC ENG', 'PROBABILITY AND STATISTICS FOR ELECTRICAL ENGINEERING', 'ความน่าจะเป็นและสถิติสำหรับวิศวกรรมไฟฟ้า', 3),
        ('2102213', 'CIR THEORY I/LAB', 'CIRCUIT THEORY I AND LABORATORY', 'ทฤษฎีวงจรไฟฟ้า 1 และปฏิบัติการ', 4),
        ('2102214', 'CIR THEORY II/LAB', 'CIRCUIT THEORY II AND LABORATORY', 'ทฤษฎีวงจรไฟฟ้า 2 และปฏิบัติการ', 3),
+       
+       ('2103213', 'ENG MECHANICS I', 'ENGINEERING MECHANICS I', 'กลศาสตร์วิศวกรรม 1', 3),
 
        ('2110101', 'COMP PROG', 'COMPUTER PROGRAMMING', 'การทำโปรแกรมคอมพิวเตอร์', 3),
        ('2110191', 'INNOV THINK', 'INNOVATIVE THINKING', 'การคิดเชิงนวัตกรรม', 3),
@@ -69,6 +71,7 @@ VALUES ('2100111', 'EXPL ENG WORLD', 'EXPLORING ENGINEERING WORLD', 'ท่อ�
        ('2301102', 'CALCULUS II', 'CALCULUS II', 'แคลคูลัส 2', 4),
        ('2301103', 'CALCULUS I', 'CALCULUS I', 'แคลคูลัส 1', 3),
        ('2301107', 'CALCULUS I', 'CALCULUS I', 'แคลคูลัส 1', 3),
+       ('2301207', 'CALCULUS III', 'CALCULUS III', 'แคลคูลัส 3', 3),
 
        ('2302112', 'GEN CHEM II', 'GENERAL CHEMISTRY II', 'เคมีทั่วไป 2', 3),
        ('2302113', 'GEN CHEM LAB', 'GENERAL CHEMISTRY LABORATORY', NULL, 1),
