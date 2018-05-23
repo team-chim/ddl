@@ -78,4 +78,22 @@ VALUES ('2100111', 'EXPL ENG WORLD', 'EXPLORING ENGINEERING WORLD', 'ท่อ�
        ('2601112', 'INTRO FIN ACCTG', 'INTRODUCTION TO FINANCIAL ACCOUNTING', 'การบัญชีการเงินเบื้องต้น', 3),
        ('2601113', 'PRIN ACCTG', 'PRINCIPLES OF ACCOUNTING', 'การบัญชีขั้นต้น', 3),
        ('2601114', 'COST ACCTG', 'COST ACCOUNTING', 'การบัญชีต้นทุน', 3),
-       ('2601115', 'FIN ACCTG', 'FINANCIAL ACCOUNTING', 'การบัญชีการเงิน', 3);
+       ('2601115', 'FIN ACCTG', 'FINANCIAL ACCOUNTING', 'การบัญชีการเงิน', 3),
+       
+       #ARCH
+	('2502297', 'TECHNICAL DRAWING', 'TECHNICAL DRAWING', 'การเขียนแบบทางเทคนิค', 3),
+	('2501122', 'PRIN ARCH DSGN', 'PRINCIPLES OF ARCHITECTURAL DESIGN', 'หลักการออกแบบงานสถาปัตยกรรม', 3),
+       ('2504634', 'LA MGT', 'LANDSCAPE ARCHITECTURAL MANAGEMENT', 'การจัดการภูมิสถาปัตยกรรม', 3),
+       
+       #EDU
+       ('2716603', 'CURRICULUM DEV', 'CURRICULUM DEVELOPMENT', 'การพัฒนาหลักสูตร', 3),
+       ('2716600', 'PEDAGOGICAL SCI', 'PEDAGOGICAL SCIENCES', 'ศาสตร์วิชาครู', 3),
+        
+       #COMMARTS
+       ('2803206', 'PRIN AD', 'PRINCIPLES OF ADVERTISING', 'หลักการโฆษณา', 3),
+       ('2804330', 'INTRO PERFORM ARTS', 'INTRODUCTION TO PERFORMING ARTS', 'สื่อสารการแสดงเบื้องต้น', 2),
+         
+       #ECON
+       ('2945111', 'MATH ECONOMIST I', 'MATHEMATICS FOR ECONOMISTS I', 'คณิตศาสตร์สำหรับนักเศรษฐศาสตร์ 1', 4),
+       ('2940104', 'INTRO ECON', 'INTRODUCTION TO ECONOMICS', 'เศรษฐศาสตร์เบื้องต้น', 3),
+       ('2945113', 'STAT ECONOMIST', 'STATISTICS FOR ECONOMISTS', 'สถิติสำหรับนักเศรษฐศาสตร์', 4);
