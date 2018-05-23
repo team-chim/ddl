@@ -4,4 +4,10 @@ INSERT INTO nationality(`NationName`)
 VALUES ('Thai'),
        ('Indian'),
        ('British'),
-       ('Canadian');
+       ('Canadian'),
+       ('Brazilian'),
+	('Chinese'),
+       ('South Korean'),
+       ('Russian'),
+       ('Cambodian'),
+       ('Laotian');
