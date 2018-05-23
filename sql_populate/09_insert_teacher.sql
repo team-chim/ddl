@@ -34,9 +34,15 @@ VALUES ('0123456789', 'Prabhas', NULL,'Chongstitvatana', 'ประภาส', N
        ('0010012950', 'Pramote', NULL, 'Dechaumphai', 'ปราโมทย์', NULL, 'เดชะอำไพ', 'fmepdc@eng.chula.ac.th', '02-218-6621', 21, 3, '1989-01-01'),
        ('0010012869', 'Somsak', NULL, 'Chaiyapinunt', 'สมศักดิ์', NULL, 'ไชยะภินันท์', 'somsak.ch@chula.ac.th', '02-218-6631', 21, 3, '1990-01-01'),
        ('0010002341', 'Niphon', NULL, 'Wansophark', 'นิพนธ์', NULL, 'วรรณโสภาคย์', 'niphon.w@eng.chula.ac.th', '02-218-6589', 21, 3, '2007-01-01'),
-       ('0010018172', 'Witaya', NULL, 'Wannasuphoprasit', 'วิทยา', NULL, 'วัณณสุโภประสิทธิ์', 'witaya.w@chula.ac.th'. '02-218-6588', 21, 3, '2003-01-01'),
+       ('0010018172', 'Witaya', NULL, 'Wannasuphoprasit', 'วิทยา', NULL, 'วัณณสุโภประสิทธิ์', 'witaya.w@chula.ac.th', '02-218-6588', 21, 3, '2003-01-01'),
        
-       ('0010018200', 'Boonchai', NULL, 'Techaumnat', 'บุญชัย', NULL, 'เตชะอำนาจ', 'Boonchai.T@chula.ac.th', NULL, 21, 2, '2001-01-01');
+       ('0010018200', 'Boonchai', NULL, 'Techaumnat', 'บุญชัย', NULL, 'เตชะอำนาจ', 'Boonchai.T@chula.ac.th', NULL, 21, 2, '2001-01-01'),
+       ('0000040690', 'Chanarong', NULL, 'Banmongkol', 'ชาญณรงค์', NULL, 'บาลมงคล', 'channarong.b@chula.ac.th', NULL, 21, 2, '2002-01-01'),
+       ('0010014293', 'Weerapun', NULL, 'Rungseevijitprapa', 'วีระพันธ์', NULL, 'รังสีวิจิตรประภา', 'weerapun105@yahoo.com', '02-218-6551', 21, 2, '2003-01-01'),
+       ('0000089005', 'Chaodit', NULL, 'Aswakul', 'เชาวน์ดิศ', NULL, 'อัศวกุล', 'Chaodit.a@chula.ac.th', '02-218-6908', 21, 2, '2004-01-01'),
+       ('0010002305', 'Nisachon', NULL, 'Tangsangiumvisai', 'นิศาชล', NULL, 'ตั้งเสงี่ยมวิสัย', 'Nisachon.T@chula.ac.th', '02-218-6909', 21, 2, '2005-01-01'),
+       ('0010016420', 'Jitkomut', NULL, 'Songsiri', 'จิตโกมุท', NULL, 'ส่งศิริ', 'jitkomut.s@chula.ac.th', '02-218-6487', 21, 2, '2004-01-01'),
+       ('0010012862', 'Mana', NULL, 'Sriyudthsak', 'มานะ', NULL, 'ศรียุทธศักดิ์', 'Mana.S@chula.ac.th', '02-218-6517', 21, 2, '2007-01-01');
 
 
 
