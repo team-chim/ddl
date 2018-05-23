@@ -129,21 +129,21 @@ VALUES
        ('2102201', 2017, 1,  NULL, NULL, NULL, NULL),
     
     -- 2102202 
-       ('2102202', 2016, 1,  NULL, NULL, NULL, NULL),
-       ('2102202', 2017, 1,  NULL, NULL, NULL, NULL),
+       ('2102202', 2016, 2,  NULL, NULL, NULL, NULL),
+       ('2102202', 2017, 2,  NULL, NULL, NULL, NULL),
        
 	-- 2102203
        ('2102203', 2016, 1,  NULL, NULL, NULL, NULL),
        ('2102203', 2017, 1,  NULL, NULL, NULL, NULL),
     
     -- 2102213 
-       ('2102213', 2016, 2,  NULL, NULL, NULL, NULL),
-       ('2102213', 2017, 2,  NULL, NULL, NULL, NULL),
+       ('2102213', 2016, 1,  NULL, NULL, NULL, NULL),
+       ('2102213', 2017, 1,  NULL, NULL, NULL, NULL),
        
 	-- 2102214 
        ('2102214', 2016, 2,  NULL, NULL, NULL, NULL),
        ('2102214', 2017, 2,  NULL, NULL, NULL, NULL),
     
     -- 2103213 
-       ('2103213', 2016, 2,  NULL, NULL, NULL, NULL),
-       ('2103213', 2017, 2,  NULL, NULL, NULL, NULL);
+       ('2103213', 2016, 1,  NULL, NULL, NULL, NULL),
+       ('2103213', 2017, 1,  NULL, NULL, NULL, NULL);
