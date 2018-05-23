@@ -113,4 +113,37 @@ VALUES
 
     -- 2204182 WEST CIV
        ('2204182', 2016, 2, NULL, NULL, '2017-05-09 13:00:00', '2017-05-09 15:00:00'), 
-       ('2204182', 2017, 2, NULL, NULL, '2018-05-08 13:00:00', '2018-05-08 15:00:00');
+       ('2204182', 2017, 2, NULL, NULL, '2018-05-08 13:00:00', '2018-05-08 15:00:00'),
+       
+       #Need to add exam date and edit semester.
+    -- 2101252 Civil Something
+       ('2101252', 2016, 2, NULL, NULL, NULL, NULL),
+       ('2101252', 2017, 2, NULL, NULL, NULL, NULL), 
+
+    -- 2101253 Civil Something II
+       ('2101253', 2016, 2,  NULL, NULL, NULL, NULL),
+       ('2101253', 2017, 2,  NULL, NULL, NULL, NULL),
+       
+	-- 2102201 
+       ('2102201', 2016, 1,  NULL, NULL, NULL, NULL),
+       ('2102201', 2017, 1,  NULL, NULL, NULL, NULL),
+    
+    -- 2102202 
+       ('2102202', 2016, 1,  NULL, NULL, NULL, NULL),
+       ('2102202', 2017, 1,  NULL, NULL, NULL, NULL),
+       
+	-- 2102203
+       ('2102203', 2016, 1,  NULL, NULL, NULL, NULL),
+       ('2102203', 2017, 1,  NULL, NULL, NULL, NULL),
+    
+    -- 2102213 
+       ('2102213', 2016, 2,  NULL, NULL, NULL, NULL),
+       ('2102213', 2017, 2,  NULL, NULL, NULL, NULL),
+       
+	-- 2102214 
+       ('2102214', 2016, 2,  NULL, NULL, NULL, NULL),
+       ('2102214', 2017, 2,  NULL, NULL, NULL, NULL),
+    
+    -- 2103213 
+       ('2103213', 2016, 2,  NULL, NULL, NULL, NULL),
+       ('2103213', 2017, 2,  NULL, NULL, NULL, NULL);
