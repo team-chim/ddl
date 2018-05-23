@@ -3,5 +3,11 @@ USE rexchula;
 INSERT INTO nationality(`NationName`)
 VALUES ('Thai'),
        ('Indian'),
-       ('English'),
-       ('Canadian');
+       ('British'),
+       ('Canadian'),
+       ('Brazilian'),
+	('Chinese'),
+       ('South Korean'),
+       ('Russian'),
+       ('Cambodian'),
+       ('Laotian');

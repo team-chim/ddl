@@ -12,6 +12,8 @@ VALUES ('2100111', 'EXPL ENG WORLD', 'EXPLORING ENGINEERING WORLD', 'ท่อ�
        ('2102203', 'PROB STAT ELEC ENG', 'PROBABILITY AND STATISTICS FOR ELECTRICAL ENGINEERING', 'ความน่าจะเป็นและสถิติสำหรับวิศวกรรมไฟฟ้า', 3),
        ('2102213', 'CIR THEORY I/LAB', 'CIRCUIT THEORY I AND LABORATORY', 'ทฤษฎีวงจรไฟฟ้า 1 และปฏิบัติการ', 4),
        ('2102214', 'CIR THEORY II/LAB', 'CIRCUIT THEORY II AND LABORATORY', 'ทฤษฎีวงจรไฟฟ้า 2 และปฏิบัติการ', 3),
+       
+       ('2103213', 'ENG MECHANICS I', 'ENGINEERING MECHANICS I', 'กลศาสตร์วิศวกรรม 1', 3),
 
        ('2110101', 'COMP PROG', 'COMPUTER PROGRAMMING', 'การทำโปรแกรมคอมพิวเตอร์', 3),
        ('2110191', 'INNOV THINK', 'INNOVATIVE THINKING', 'การคิดเชิงนวัตกรรม', 3),
@@ -69,6 +71,7 @@ VALUES ('2100111', 'EXPL ENG WORLD', 'EXPLORING ENGINEERING WORLD', 'ท่อ�
        ('2301102', 'CALCULUS II', 'CALCULUS II', 'แคลคูลัส 2', 4),
        ('2301103', 'CALCULUS I', 'CALCULUS I', 'แคลคูลัส 1', 3),
        ('2301107', 'CALCULUS I', 'CALCULUS I', 'แคลคูลัส 1', 3),
+       ('2301207', 'CALCULUS III', 'CALCULUS III', 'แคลคูลัส 3', 3),
 
        ('2302112', 'GEN CHEM II', 'GENERAL CHEMISTRY II', 'เคมีทั่วไป 2', 3),
        ('2302113', 'GEN CHEM LAB', 'GENERAL CHEMISTRY LABORATORY', NULL, 1),
@@ -78,4 +81,22 @@ VALUES ('2100111', 'EXPL ENG WORLD', 'EXPLORING ENGINEERING WORLD', 'ท่อ�
        ('2601112', 'INTRO FIN ACCTG', 'INTRODUCTION TO FINANCIAL ACCOUNTING', 'การบัญชีการเงินเบื้องต้น', 3),
        ('2601113', 'PRIN ACCTG', 'PRINCIPLES OF ACCOUNTING', 'การบัญชีขั้นต้น', 3),
        ('2601114', 'COST ACCTG', 'COST ACCOUNTING', 'การบัญชีต้นทุน', 3),
-       ('2601115', 'FIN ACCTG', 'FINANCIAL ACCOUNTING', 'การบัญชีการเงิน', 3);
+       ('2601115', 'FIN ACCTG', 'FINANCIAL ACCOUNTING', 'การบัญชีการเงิน', 3),
+       
+       #ARCH
+	('2502297', 'TECHNICAL DRAWING', 'TECHNICAL DRAWING', 'การเขียนแบบทางเทคนิค', 3),
+	('2501122', 'PRIN ARCH DSGN', 'PRINCIPLES OF ARCHITECTURAL DESIGN', 'หลักการออกแบบงานสถาปัตยกรรม', 3),
+       ('2504634', 'LA MGT', 'LANDSCAPE ARCHITECTURAL MANAGEMENT', 'การจัดการภูมิสถาปัตยกรรม', 3),
+       
+       #EDU
+       ('2716603', 'CURRICULUM DEV', 'CURRICULUM DEVELOPMENT', 'การพัฒนาหลักสูตร', 3),
+       ('2716600', 'PEDAGOGICAL SCI', 'PEDAGOGICAL SCIENCES', 'ศาสตร์วิชาครู', 3),
+        
+       #COMMARTS
+       ('2803206', 'PRIN AD', 'PRINCIPLES OF ADVERTISING', 'หลักการโฆษณา', 3),
+       ('2804330', 'INTRO PERFORM ARTS', 'INTRODUCTION TO PERFORMING ARTS', 'สื่อสารการแสดงเบื้องต้น', 2),
+         
+       #ECON
+       ('2945111', 'MATH ECONOMIST I', 'MATHEMATICS FOR ECONOMISTS I', 'คณิตศาสตร์สำหรับนักเศรษฐศาสตร์ 1', 4),
+       ('2940104', 'INTRO ECON', 'INTRODUCTION TO ECONOMICS', 'เศรษฐศาสตร์เบื้องต้น', 3),
+       ('2945113', 'STAT ECONOMIST', 'STATISTICS FOR ECONOMISTS', 'สถิติสำหรับนักเศรษฐศาสตร์', 4);

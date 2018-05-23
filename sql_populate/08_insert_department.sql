@@ -15,6 +15,8 @@ VALUES (21,  1, 'Civil Engineering','วิศวกรรมโยธา'),
        (23,  2, 'Chemistry','เคมี'),
        (23,  3, 'Biology','ชีววิทยา'),
        (23,  4, 'Physics','ฟิสิกส์'),
+       (25,  1, 'Architecture','สถาปัตยกรรมศาสตร์'),
+       (25,  2, 'Industrial Design','การออกแบบอุตสาหกรรม'),
        (26,  1, 'Accountancy','การบัญชี'),
        (26,  2, 'Commerce','พาณิชยศาสตร์'),
        (26,  3, 'Statistics','สถิติ');
