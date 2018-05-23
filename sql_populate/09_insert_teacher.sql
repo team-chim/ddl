@@ -25,4 +25,18 @@ VALUES ('0123456789', 'Prabhas', NULL,'Chongstitvatana', 'ประภาส', N
        ('0000040461', 'Twittie', NULL, 'Senivongse', 'ทวิตีย์', NULL, 'เสนีวงศ์ ณ อยุธยา', 'twittie.s@chula.ac.th', '4444444444', 21, 10, '2010-05-01'),
        ('0000034157', 'Attawith', NULL, 'Sudsang', 'อรรถวิทย์', NULL, 'สุดแสง', 'attawith@cp.eng.chula.ac.th', '081-231-2113', 21, 10, '2000-05-01'), 
        ('0000036116', 'Proadpran', NULL, 'Punyabukkana', 'โปรนปราน', NULL, 'บุณยพุกกณะ', 'Proadpran.P@Chula.ac.th', '081-231-2113', 21, 10, '2000-05-01'),
-       ('0010002101', 'Vishnu', NULL, 'Kotrajaras', 'วิษณุ', NULL, 'โคตรจรัส', 'vishnu@cp.eng.chula.ac.th', '081-231-2113', 21, 10, '2000-01-01');
+       ('0010002101', 'Vishnu', NULL, 'Kotrajaras', 'วิษณุ', NULL, 'โคตรจรัส', 'vishnu@cp.eng.chula.ac.th', '081-231-2113', 21, 10, '2000-01-01'),
+
+       ('0010013759', 'Tospol', NULL, 'Pinkaew', 'ทศพล', NULL, 'ปิ่นแก้ว', 'tospol.p@chula.ac.th', '0-2218-6477', 21, 1, '1996-01-01'),
+       ('0000040781', 'Tanate', NULL, 'Srisirirojanakorn', 'ธเนศ', NULL, 'ศรีศิริโรจนากร', 'fcetss@gmail.com', '0-2218-6575', 21, 1, '2000-01-01'),
+       ('0010013793', 'Boonchai', NULL, 'Sangpetngam', 'บุญชัย', NULL, 'แสงเพชรงาม', NULL, '0-2218-6697', 21, 1, '2003-01-01'),
+
+       ('0010012950', 'Pramote', NULL, 'Dechaumphai', 'ปราโมทย์', NULL, 'เดชะอำไพ', 'fmepdc@eng.chula.ac.th', '02-218-6621', 21, 3, '1989-01-01'),
+       ('0010012869', 'Somsak', NULL, 'Chaiyapinunt', 'สมศักดิ์', NULL, 'ไชยะภินันท์', 'somsak.ch@chula.ac.th', '02-218-6631', 21, 3, '1990-01-01'),
+       ('0010002341', 'Niphon', NULL, 'Wansophark', 'นิพนธ์', NULL, 'วรรณโสภาคย์', 'niphon.w@eng.chula.ac.th', '02-218-6589', 21, 3, '2007-01-01'),
+       ('0010018172', 'Witaya', NULL, 'Wannasuphoprasit', 'วิทยา', NULL, 'วัณณสุโภประสิทธิ์', 'witaya.w@chula.ac.th'. '02-218-6588', 21, 3, '2003-01-01'),
+       
+       ('0010018200', 'Boonchai', NULL, 'Techaumnat', 'บุญชัย', NULL, 'เตชะอำนาจ', 'Boonchai.T@chula.ac.th', NULL, 21, 2, '2001-01-01');
+
+
+
